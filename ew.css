@@ -1,0 +1,139 @@
+.hd.sticky-top{
+    min-height: 80px;
+    width: 100%;
+}
+html body {
+    overflow-x: hidden;
+    margin-top: -18px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.hd{
+    background-image: url(header-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 110px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.main-nav{
+    min-height: 80px;
+    background: transparent;
+    display: block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-right: -110px;
+}
+.nav ul li{
+    display: flex;
+    padding: 0px;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.fnt{
+   font-size: 0.8rem;
+}
+.wi{
+    width: 160px;
+}
+.col-4{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.uj{
+    font-size: 17px;
+}
+.dc{
+    color: #dc8cd8;
+    font-size: 64px;
+}
+.bd{
+    color: #111111;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.pink{
+    background: linear-gradient(to right, #df9561  , #dc8cd8 ); 
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 0.7rem;
+}
+.hei{
+    height: 500px;
+}
+.left-i::before{
+    position: absolute;
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    width: 214px;
+    height: 429px;
+    content: "";
+    bottom: -80px;
+    z-index: 1;
+}
+.right-i::after{
+    position: absolute;
+    background-image: url(bg2.png);
+    background-repeat: round;
+    width: 300px;
+    height: 380px;
+    content: "";
+    z-index: 50;
+    /* float: right; */
+}
+.cr{
+    font-size: 20px;
+}
+.fnt1{
+    font-size: 14px;
+}
+.sb:hover
+{
+    box-shadow: 5px 5px 5px 5px rgb(232, 228, 228);
+    border-radius: 8px;
+}
+.hrm{
+    font-size: 13px;
+}
+.fra{
+    color: #dc8cd8;
+    font-size: 28px;
+}
+.fra1{
+    font-size: 28px;
+    font-weight: 900;
+}
+.shad:hover{
+    box-shadow: 5px 5px 5px 5px rgb(232, 228, 228);
+    border-radius: 7px;
+}
+.wei{
+    font-weight: 800;
+}
+.fnt3{
+    font-size: 14px;
+}
+.wirr{
+    text-align: center;
+    line-height: 27px;
+    box-sizing: border-box;
+}
